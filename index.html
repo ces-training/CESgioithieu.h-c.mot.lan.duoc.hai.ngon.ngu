@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Anh – Trung – Kids của CES Việt Nam: chương trình song ngữ Anh – Trung cho trẻ 4–10 tuổi. Mời trung tâm, trường học nhượng quyền và giáo viên đăng ký khóa đào tạo.">
+<meta property="og:title" content="CES Anh – Trung – Kids · Học một lần, được hai ngôn ngữ">
+<meta property="og:description" content="Mở lớp Anh – Trung mà không phải tự xây chương trình. Đăng ký nhượng quyền hoặc khóa đào tạo giáo viên.">
+<meta property="og:image" content="https://ces-training.github.io/CESgioithieu.h-c.mot.lan.duoc.hai.ngon.ngu/img/og.jpg">
+<meta property="og:type" content="website">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>CES Anh – Trung – Kids</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&family=Noto+Sans+SC:wght@500;700&display=swap">
+<style>
+/* Bố cục: "sân trường" – dải màu ngang như các khu của một ngày học, nhân vật web 21 ngày đứng ở mép mỗi khu */
+:root{
+  --red:#E3262E; --red-dark:#B8141C; --yellow:#FFC72C; --yellow-soft:#FFF4CC; --cream:#FFFBF0;
+  --teal:#1FA5A0; --green:#3BB273; --sky:#4AA3E8; --plum:#8A5CD6;
+  --ink:#3A2A1A; --muted:#7A6A58; --line:#F0E2C0; --card:#FFFFFF;
+  --f-display:'Baloo 2','Be Vietnam Pro',system-ui,sans-serif;
+  --f-body:'Be Vietnam Pro',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-zh:'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif;
+  --shadow:0 6px 0 rgba(58,42,26,.10),0 14px 30px rgba(58,42,26,.08);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+.tbl table.wide{min-width:620px}
+@media (max-width:520px){.frame-row{grid-template-columns:1fr;gap:4px}td:first-child{white-space:normal;min-width:110px}}
+html{scroll-behavior:smooth;background:var(--cream)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--cream);color:var(--ink);font:400 17px/1.6 var(--f-body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--red)}
+img,video{max-width:100%;display:block}
+a{color:var(--red-dark)}
+h1,h2,h3{font-family:var(--f-display);line-height:1.08;margin:0;text-wrap:balance;font-weight:800}
+h2{font-size:clamp(30px,4.2vw,46px)}
+h3{font-size:24px}
+p{margin:0}
+.zh{font-family:var(--f-zh)}
+.wrap{max-width:1160px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.band{padding-block:72px}
+.eyebrow{font:700 13px/1 var(--f-body);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.lead{font-size:19px;max-width:62ch;color:var(--ink)}
+.stack{display:flex;flex-direction:column;gap:14px}
+.btn{display:inline-flex;align-items:center;gap:10px;border:0;border-radius:999px;padding:14px 24px;font:700 17px/1 var(--f-body);text-decoration:none;cursor:pointer;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn:focus-visible,button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--sky);outline-offset:3px}
+.btn-red{background:var(--red);color:#fff;box-shadow:0 5px 0 var(--red-dark)}
+.btn-teal{background:var(--teal);color:#fff;box-shadow:0 5px 0 #157a76}
+.btn-ghost{background:#fff;color:var(--ink);box-shadow:0 4px 0 var(--line);border:2px solid var(--line)}
+
+/* thanh trên */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--red);color:#fff}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:10px}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font:800 21px/1 var(--f-display)}
+.brand b{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#fff;color:var(--red);font:800 15px/1 var(--f-display)}
+.brand small{display:block;font:600 11px/1.2 var(--f-body);opacity:.85;letter-spacing:.04em}
+.top nav{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.top nav a{color:#fff;text-decoration:none;font:700 15px/1 var(--f-body);padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.14)}
+.top nav a.hot{background:var(--yellow);color:var(--ink)}
+@media (max-width:640px){.top nav a:not(.hot){display:none}.brand small{display:none}}
+
+/* hero */
+.hero{background:repeating-linear-gradient(135deg,#FFE9A8 0 28px,var(--yellow-soft) 28px 56px);position:relative;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-block:56px 150px;position:relative;z-index:2}
+.hero h1{font-size:clamp(42px,6.4vw,76px);color:var(--red)}
+.hero h1 span{color:var(--teal);display:block}
+.hero .cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px}
+.hero-vid{background:var(--ink);border-radius:28px;padding:10px;box-shadow:var(--shadow);transform:rotate(1.5deg);max-width:440px;justify-self:center;width:100%}
+.hero-vid video{border-radius:20px;width:100%;aspect-ratio:1;object-fit:cover;background:#2b2018}
+.hero-vid figcaption{color:#fff;font:600 14px/1.4 var(--f-body);padding:10px 8px 4px;display:flex;justify-content:space-between;gap:10px;align-items:center}
+.sound{background:var(--yellow);color:var(--ink);border:0;border-radius:999px;font:700 13px/1 var(--f-body);padding:8px 12px;cursor:pointer;flex:none}
+.hero-ground{position:absolute;left:0;right:0;bottom:0;height:200px;background:url(img/bg_vuon.webp) center 72%/cover;z-index:1;-webkit-mask-image:linear-gradient(to top,#000 60%,transparent);mask-image:linear-gradient(to top,#000 60%,transparent)}
+.hero-kids{position:absolute;bottom:0;left:50%;transform:translateX(-50%);display:flex;gap:2vw;z-index:2;pointer-events:none}
+.hero-kids img{height:150px;width:auto}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr;padding-block:40px 140px}.hero-kids img{height:110px}}
+
+/* số liệu */
+.facts{background:var(--card);border-block:3px solid var(--line)}
+.facts .wrap{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;padding-block:28px}
+.fact b{display:block;font:800 44px/1 var(--f-display);color:var(--red);font-variant-numeric:tabular-nums}
+.fact span{font-size:15px;font-weight:600;line-height:1.35;display:block;margin-top:6px}
+.fact:nth-child(2) b{color:var(--teal)}.fact:nth-child(3) b{color:var(--sky)}.fact:nth-child(4) b{color:var(--green)}.fact:nth-child(5) b{color:var(--plum)}
+@media (max-width:860px){.facts .wrap{grid-template-columns:repeat(2,1fr)}}
+
+.head{display:flex;flex-direction:column;gap:12px;margin-bottom:34px;max-width:780px}
+
+/* video các con */
+.kids-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.kid{background:var(--card);border-radius:22px;padding:10px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px;min-width:0}
+.kid video{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:14px;background:#2b2018}
+.kid .tag{display:inline-block;font:700 12px/1 var(--f-body);color:#fff;border-radius:999px;padding:5px 10px}
+.kid p{font-size:15px;font-weight:600;line-height:1.45;padding:0 6px 6px}
+.kid strong{font-family:var(--f-display);font-size:19px;display:block}
+.note{font-size:14px;color:var(--muted);margin-top:18px}
+@media (max-width:960px){.kids-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:480px){.kids-grid{grid-template-columns:1fr}}
+
+/* phụ huynh */
+.parent{background:var(--teal);color:#fff;position:relative;overflow:hidden}
+.parent .wrap{display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:center}
+.parent img{height:240px;width:auto}
+.parent blockquote{margin:0;font:700 clamp(22px,3vw,32px)/1.35 var(--f-body)}
+.parent blockquote::before{content:"“";font:800 90px/0 var(--f-display);color:var(--yellow);display:block;height:36px}
+.parent cite{display:block;margin-top:16px;font:600 16px/1.4 var(--f-body);font-style:normal;opacity:.9}
+@media (max-width:700px){.parent .wrap{grid-template-columns:1fr}.parent img{height:150px}}
+
+/* video demo */
+.demo{display:grid;grid-template-columns:1fr 340px;gap:30px;align-items:start}
+.demo video{width:100%;border-radius:20px;background:#2b2018;box-shadow:var(--shadow);aspect-ratio:16/9}
+.chapters{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.chapters button{width:100%;text-align:left;background:var(--card);border:2px solid var(--line);border-radius:14px;padding:12px 14px;font:600 15px/1.35 var(--f-body);color:var(--ink);cursor:pointer;display:flex;gap:12px;align-items:baseline}
+.chapters button span{font:700 13px/1 var(--f-body);color:var(--red);font-variant-numeric:tabular-nums;flex:none}
+.chapters button:hover{border-color:var(--yellow)}
+@media (max-width:900px){.demo{grid-template-columns:1fr}}
+
+/* nguyên tắc */
+.rules{background:var(--yellow-soft)}
+.principles{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.pr{background:var(--card);border-radius:20px;padding:22px;box-shadow:var(--shadow);border-top:10px solid var(--c);min-width:0}
+.pr h3{color:var(--c);font-size:23px;margin-bottom:8px}
+.pr p{font-size:15.5px}
+@media (max-width:960px){.principles{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.principles{grid-template-columns:1fr}}
+.examples{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;margin-top:22px}
+.ex{background:var(--card);border-radius:22px;padding:24px;box-shadow:var(--shadow);min-width:0}
+.ex h3{margin-bottom:12px}
+.frame-demo{display:grid;gap:10px}
+.frame-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:center;border-bottom:2px dashed var(--line);padding-bottom:10px}
+.frame-row:last-child{border:0}
+.frame-row .en{font:700 19px/1.3 var(--f-body);color:var(--sky)}
+.frame-row .cn{font:700 20px/1.3 var(--f-zh);color:var(--red)}
+.frame-row mark{background:var(--yellow);color:var(--ink);border-radius:6px;padding:0 4px}
+.steps6{list-style:none;padding:0;margin:0;display:grid;gap:8px;counter-reset:s}
+.steps6 li{display:flex;gap:12px;align-items:center;font-weight:600;font-size:16px}
+.steps6 li::before{counter-increment:s;content:counter(s);flex:none;display:grid;place-items:center;width:32px;height:32px;border-radius:50%;color:#fff;font:800 16px/1 var(--f-display);background:var(--c)}
+.ladder{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.ladder span{background:var(--yellow-soft);border:2px solid var(--line);border-radius:12px;padding:8px 12px;font-weight:700;font-size:15px}
+.minis{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+.mini{background:var(--card);border-radius:18px;padding:18px 20px;box-shadow:var(--shadow)}
+.mini b{font:800 40px/1 var(--f-display);color:var(--c)}
+.mini span{display:block;font-weight:600;font-size:15px;margin-top:6px}
+@media (max-width:860px){.examples{grid-template-columns:1fr}.minis{grid-template-columns:1fr}}
+
+/* học liệu */
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+.tab{border:2px solid var(--line);background:var(--card);border-radius:999px;padding:11px 18px;font:700 16px/1 var(--f-body);color:var(--ink);cursor:pointer}
+.tab[aria-selected="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.item{background:var(--card);border-radius:20px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;min-width:0}
+.item img{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:var(--p,50% 40%);border-bottom:3px solid var(--line)}
+.item div{padding:14px 18px 18px;display:flex;flex-direction:column;gap:6px}
+.item h3{font-size:22px;color:var(--c,var(--red))}
+.item p{font-size:15px}
+.item p b{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:block}
+.try{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+@media (max-width:960px){.gal{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.gal{grid-template-columns:1fr}}
+
+/* luồng đối tác / giáo viên */
+.track{position:relative}
+.track.partner{background:#FFF0EE}
+.track.teacher{background:#EAF6F5}
+.track-head{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end;margin-bottom:34px}
+.track-head img{height:210px;width:auto}
+.pill{display:inline-block;border-radius:999px;padding:7px 14px;font:700 14px/1 var(--f-body);color:#fff;background:var(--c)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.box{background:var(--card);border-radius:22px;padding:24px;box-shadow:var(--shadow);min-width:0}
+.box h3{margin-bottom:12px;color:var(--c,var(--ink))}
+.box ul{margin:0;padding-left:20px;display:grid;gap:8px}
+.box li{font-size:16px}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:15.5px}
+th,td{text-align:left;padding:11px 12px;border-bottom:2px solid var(--line);vertical-align:top}
+th{font:700 13px/1.2 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+td:first-child{font-weight:700;white-space:nowrap}
+ol.flow{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(5,1fr);gap:12px;counter-reset:f}
+ol.flow li{background:var(--card);border-radius:18px;padding:18px 16px;box-shadow:var(--shadow);position:relative;font-weight:600;font-size:15.5px;min-width:0}
+ol.flow li::before{counter-increment:f;content:"Bước " counter(f);display:block;font:800 18px/1 var(--f-display);color:var(--c);margin-bottom:8px}
+ol.flow.four{grid-template-columns:repeat(4,1fr)}
+@media (max-width:900px){.grid2{grid-template-columns:1fr}ol.flow,ol.flow.four{grid-template-columns:1fr 1fr}.track-head{grid-template-columns:1fr}.track-head img{height:140px}}
+@media (max-width:480px){ol.flow,ol.flow.four{grid-template-columns:1fr}}
+.callout{margin-top:22px;background:var(--ink);color:#fff;border-radius:22px;padding:24px 26px;display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+.callout p{font:700 20px/1.4 var(--f-body);max-width:56ch}
+
+/* đại dương xanh */
+.ocean{background:linear-gradient(160deg,#0E5E8C,#1FA5A0);color:#fff;border-radius:28px;padding:30px;box-shadow:var(--shadow);margin-bottom:4px}
+.ocean a{color:#FFE48A}
+.ocean-head{max-width:760px;display:grid;gap:10px;margin-bottom:22px}
+.ocean-title{font-size:clamp(26px,3.4vw,38px);color:#fff}
+.ocean-head p{font-size:17px}
+.ocean-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.oc{background:rgba(255,255,255,.12);border:2px solid rgba(255,255,255,.22);border-radius:20px;padding:18px;min-width:0}
+.oc b{font:800 38px/1 var(--f-display);color:var(--yellow);display:block}
+.oc h4{font:700 18px/1.3 var(--f-body);margin:8px 0 6px}
+.oc p{font-size:14.5px;line-height:1.5}
+@media (max-width:960px){.ocean-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.ocean-grid{grid-template-columns:1fr}.ocean{padding:22px}}
+.box ul b{color:var(--ink)}
+.why{margin-top:20px;background:var(--card);border-radius:28px;padding:28px;box-shadow:var(--shadow);border:3px solid var(--yellow)}
+.why-title{font-size:clamp(26px,3.2vw,34px);color:var(--red)}
+.why-lead{margin:10px 0 18px;max-width:70ch}
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.wy{background:var(--yellow-soft);border-radius:18px;padding:18px 18px 18px 64px;position:relative;min-width:0}
+.wy span{position:absolute;left:16px;top:16px;width:36px;height:36px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;font:800 18px/1 var(--f-display)}
+.wy h4{font:700 18px/1.3 var(--f-body);margin:0 0 6px}
+.wy p{font-size:15px;line-height:1.55}
+.why-note{font-size:14px;color:var(--muted);margin-top:14px}
+@media (max-width:760px){.why-grid{grid-template-columns:1fr}.why{padding:20px}}
+/* người xây dựng */
+.author{display:grid;grid-template-columns:auto 1fr;gap:30px;align-items:center}
+.author img{height:220px;width:auto}
+.creds{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:16px}
+.creds div{background:var(--card);border-radius:16px;padding:14px 16px;border:2px solid var(--line);font-weight:600;font-size:15.5px}
+@media (max-width:760px){.author{grid-template-columns:1fr}.author img{height:150px}.creds{grid-template-columns:1fr}}
+
+/* đăng ký */
+.reg{background:var(--red);color:#fff}
+.reg .wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:36px;align-items:start}
+.reg h2{color:#fff}
+.reg .lead{color:#fff}
+form{background:var(--card);color:var(--ink);border-radius:26px;padding:26px;box-shadow:0 8px 0 var(--red-dark);display:grid;gap:14px}
+.who{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.who label{border:2px solid var(--line);border-radius:14px;padding:12px;font-weight:700;cursor:pointer;display:flex;gap:8px;align-items:center}
+.who input{accent-color:var(--red)}
+.who label:has(input:checked){border-color:var(--red);background:#FFF0EE}
+.field{display:grid;gap:6px}
+.field label{font-weight:700;font-size:15px}
+.field input,.field select,.field textarea{font:500 16px/1.4 var(--f-body);border:2px solid var(--line);border-radius:12px;padding:11px 12px;background:#FFFDF7;color:var(--ink);width:100%}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.err{color:var(--red-dark);font-weight:700;font-size:14px}
+.out{display:grid;gap:12px;background:var(--yellow-soft);border:2px solid var(--yellow);border-radius:18px;padding:16px}
+.out pre{white-space:pre-wrap;margin:0;font:500 15px/1.5 var(--f-body);background:#fff;border-radius:12px;padding:12px;border:2px solid var(--line);max-height:260px;overflow:auto}
+.contactline{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-weight:700}
+.phone{font:800 26px/1 var(--f-display);color:#fff;letter-spacing:.02em;user-select:all}
+.copy{background:var(--yellow);color:var(--ink);border:0;border-radius:999px;padding:9px 14px;font:700 14px/1 var(--f-body);cursor:pointer}
+@media (max-width:900px){.reg .wrap{grid-template-columns:1fr}.row2{grid-template-columns:1fr}}
+@media (max-width:420px){.who{grid-template-columns:1fr}}
+
+details{background:var(--card);border-radius:16px;border:2px solid var(--line);padding:14px 18px}
+details+details{margin-top:10px}
+summary{font-weight:700;cursor:pointer;font-size:17px}
+details p{margin-top:10px;font-size:16px}
+
+footer{background:var(--ink);color:#F6EBD8}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;padding-block:36px}
+footer b{font-family:var(--f-display);font-size:22px;display:block;color:#fff}
+footer p{font-size:15px}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><b>A中</b><span>CES Việt Nam<small>Anh – Trung – Kids</small></span></a>
+    <nav aria-label="Mục chính">
+      <a href="#ket-qua">Kết quả</a>
+      <a href="#hoc-lieu">Học liệu</a>
+      <a href="#doi-tac">Đối tác</a>
+      <a href="#giao-vien">Giáo viên</a>
+      <a class="hot" href="#dang-ky">Đăng ký</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <div class="stack">
+      <p class="eyebrow">CES Việt Nam · Chương trình song ngữ cho trẻ 4–10 tuổi</p>
+      <h1>Học một lần,<span>được hai ngôn ngữ</span></h1>
+      <p class="lead">Anh – Trung – Kids dạy tiếng Anh và tiếng Trung qua cùng một câu chuyện, cùng một tình huống. 9 khóa nối tiếp, hướng tới chứng chỉ Cambridge YLE và YCT. Chúng tôi đang tìm trung tâm, trường học cùng mở lớp và giáo viên cùng dạy.</p>
+      <div class="cta">
+        <a class="btn btn-red" href="#doi-tac">Tôi muốn mở lớp · Nhượng quyền</a>
+        <a class="btn btn-teal" href="#giao-vien">Tôi là giáo viên · Đào tạo</a>
+      </div>
+    </div>
+    <figure class="hero-vid" style="margin:0">
+      <video id="heroVid" src="vid/na.mp4" poster="img/poster_na.jpg" autoplay muted loop playsinline preload="auto" aria-label="Bé Na kể truyện A beautiful day bằng tiếng Anh và tiếng Trung"></video>
+      <figcaption><span>Bé Na (Hải Dương), học tới khóa 2: kể truyện "A beautiful day" bằng cả tiếng Anh và tiếng Trung.</span><button class="sound" id="soundBtn" type="button">🔊 Bật tiếng</button></figcaption>
+    </figure>
+  </div>
+  <div class="hero-ground" aria-hidden="true"></div>
+  <div class="hero-kids" aria-hidden="true">
+    <img src="img/kids_bong_a.webp" alt=""><img src="img/kids_leo_a.webp" alt=""><img src="img/kids_anna_a.webp" alt=""><img src="img/kids_xiaomei_a.webp" alt="">
+  </div>
+</section>
+
+<section class="facts" aria-label="Chương trình trong vài con số">
+  <div class="wrap">
+    <div class="fact"><b>9</b><span>khóa nối tiếp, từ PreB đến Butterfly</span></div>
+    <div class="fact"><b>4</b><span>nguyên tắc cốt lõi trong mọi bài học</span></div>
+    <div class="fact"><b>6</b><span>lần gặp lại mỗi từ, mỗi lần khó hơn</span></div>
+    <div class="fact"><b>30′</b><span>tối đa cho mỗi hoạt động</span></div>
+    <div class="fact"><b>5–10</b><span>câu mỗi bài tập, sai không bị chặn</span></div>
+  </div>
+</section>
+
+<section class="band" id="ket-qua">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Kết quả thật</p>
+      <h2>Các con làm được gì</h2>
+      <p class="lead">Video do phụ huynh quay ở nhà. Mỗi bé ghi rõ học bao lâu thì làm được.</p>
+    </div>
+    <div class="kids-grid">
+      <article class="kid"><video src="vid/bin.mp4" poster="img/poster_bin.jpg" controls preload="none" playsinline></video><span class="tag" style="background:var(--green)">1 khóa · 4 tháng</span><p><strong>Bé Bin · Thái Bình</strong>Tự giới thiệu từng người trong gia đình.</p></article>
+      <article class="kid"><video src="vid/tun.mp4" poster="img/poster_tun.jpg" controls preload="none" playsinline></video><span class="tag" style="background:var(--green)">1 khóa · 4 tháng</span><p><strong>Bé Tũn · Thái Bình</strong>Tự vẽ căn phòng của mình và đứng kể câu chuyện về nó.</p></article>
+      <article class="kid"><video src="vid/su.mp4" poster="img/poster_su.jpg" controls preload="none" playsinline></video><span class="tag" style="background:var(--teal)">10 tháng</span><p><strong>Bé Su · Hải Phòng</strong>Tự tin trình bày trước camera, đội chiếc mũ tự làm trong giờ thủ công.</p></article>
+      <article class="kid"><video src="vid/may.mp4" poster="img/poster_may.jpg" controls preload="none" playsinline></video><span class="tag" style="background:var(--plum)">2 khóa</span><p><strong>Bé Mây · Hà Nội</strong>Tự làm bài ở nhà, nói về thời gian biểu trong ngày bằng tiếng Anh và tiếng Trung.</p></article>
+    </div>
+    <p class="note">Tên các bé đã được thay đổi để bảo vệ con. Học sinh Anh – Trung – Kids ở Hà Nội, Hải Phòng, Hải Dương, Thái Bình.</p>
+  </div>
+</section>
+
+<section class="parent band">
+  <div class="wrap">
+    <img src="img/huou_huou1_a.webp" alt="" aria-hidden="true">
+    <div>
+      <blockquote>Trước đây con học riêng tiếng Anh, riêng tiếng Trung, lúc nào cũng dịch từng chữ mà bỏ qua phản xạ tự nhiên. Giờ con bỏ được thói quen dịch word by word.</blockquote>
+      <cite>Chị Linh, phụ huynh bé Mì</cite>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="video">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Video giới thiệu · 3 phút 36 giây</p>
+      <h2>Xem trọn một unit trong 4 phút</h2>
+      <p class="lead">Bộ học liệu Unit 1, quy tắc thiết kế minh họa bằng nội dung thật, và trò chơi Đấu Rồng Lửa của lớp Zoom.</p>
+    </div>
+    <div class="demo">
+      <video id="demoVid" src="vid/demo.mp4" poster="img/poster_demo.jpg" controls preload="none" playsinline></video>
+      <ol class="chapters" aria-label="Các đoạn trong video">
+        <li><button type="button" data-t="0"><span>0:00</span>Một câu chuyện – hai ngôn ngữ</button></li>
+        <li><button type="button" data-t="21"><span>0:21</span>Bộ học liệu của một unit</button></li>
+        <li><button type="button" data-t="29"><span>0:29</span>Ở nhà: web tự học</button></li>
+        <li><button type="button" data-t="68"><span>1:08</span>Trên lớp: web giảng dạy của cô</button></li>
+        <li><button type="button" data-t="105"><span>1:45</span>Quy tắc thiết kế</button></li>
+        <li><button type="button" data-t="176"><span>2:56</span>Đấu Rồng Lửa</button></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="rules band" id="cach-hoc">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Cách chương trình được thiết kế</p>
+      <h2>Mỗi con số là một quy tắc bắt buộc khi soạn bài</h2>
+    </div>
+    <div class="principles">
+      <div class="pr" style="--c:var(--green)"><h3>1. Giảm tải</h3><p>Phần tiếng Trung của mỗi ngày khớp đúng phần tiếng Anh cùng ngày, nên con không phải nhớ gấp đôi.</p></div>
+      <div class="pr" style="--c:var(--sky)"><h3>2. Hiểu chung hai ngôn ngữ</h3><p>Hiểu ở tiếng này giúp hiểu ở tiếng kia. Câu tiếng Trung được viết lại cho tự nhiên, không dịch từng chữ.</p></div>
+      <div class="pr" style="--c:#E07A1F"><h3>3. Tiếng Việt làm điểm tựa</h3><p>Cô dùng tiếng Việt để giải thích khi con cần, nhưng nội dung học là tiếng Anh và tiếng Trung.</p></div>
+      <div class="pr" style="--c:var(--red)"><h3>4. Chuyển ngữ</h3><p>Con làm "phiên dịch nhí": nghe Leo nói tiếng Anh, nói lại bằng tiếng Trung cho Xiaomei.</p></div>
+    </div>
+    <div class="examples">
+      <div class="ex">
+        <h3>Khung câu quen, chỉ đổi một chỗ</h3>
+        <p style="margin-bottom:14px">Từ mới đặt vào cuối một câu con đã thuộc. Ví dụ từ truyện Unit 1 Seedling:</p>
+        <div class="frame-demo">
+          <div class="frame-row"><span class="en">Good morning, <mark>Mrs Lan</mark>!</span><span class="cn"><mark>Lan老师</mark>，早上好！</span></div>
+          <div class="frame-row"><span class="en">Good morning, <mark>class</mark>!</span><span class="cn"><mark>小朋友们</mark>，早上好！</span></div>
+          <div class="frame-row"><span class="en">Hello, <mark>Grandpa</mark>!</span><span class="cn"><mark>爷爷</mark>，您好！</span></div>
+        </div>
+        <p class="note">Chào ông, tiếng Trung dùng 您 cho lễ phép: câu được viết lại, không dịch sát.</p>
+      </div>
+      <div class="ex">
+        <h3>Một từ, 6 lần gặp, mỗi lần khó hơn</h3>
+        <ol class="steps6">
+          <li style="--c:var(--green)">Nhận ra trên thẻ từ mới</li>
+          <li style="--c:var(--teal)">Hiểu trong truyện kể dần</li>
+          <li style="--c:var(--sky)">Chọn đúng: "Ai nói câu này?"</li>
+          <li style="--c:#5B6BD6">Tự nói câu của nhân vật</li>
+          <li style="--c:var(--plum)">Nói lại bằng tiếng kia</li>
+          <li style="--c:var(--red)">Gọi lại trong Hộp ôn sau vài ngày</li>
+        </ol>
+        <div class="ladder" aria-label="Lịch ôn của Hộp ôn"><span>🌱 sau 1 ngày</span><span>🌿 sau 2 ngày</span><span>🌳 sau 4 ngày</span><span>⭐ sau 7 ngày</span></div>
+      </div>
+    </div>
+    <div class="minis">
+      <div class="mini" style="--c:var(--sky)"><b>12–15</b><span>từ trọng tâm mỗi thứ tiếng trong một unit, gặp lại ở truyện, chant, Big Book, thẻ, bingo</span></div>
+      <div class="mini" style="--c:var(--green)"><b>1</b><span>câu chuyện xuyên suốt mỗi unit, kể dần như phim nhiều tập</span></div>
+      <div class="mini" style="--c:var(--red)"><b>0</b><span>lần bị chặn lại vì trả lời sai: con đi tiếp và gặp lại câu đó ở dạng khác</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="hoc-lieu">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Ví dụ: Seedling · Unit 1 Greeting</p>
+      <h2>Bộ học liệu của một unit</h2>
+      <p class="lead">Đối tác nhận đủ bộ này cho từng unit. Giáo viên không phải soạn bài từ đầu.</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Nhóm học liệu">
+      <button class="tab" role="tab" id="tab-nha" aria-selected="true" aria-controls="g-nha" type="button">🏠 Ở nhà</button>
+      <button class="tab" role="tab" id="tab-lop" aria-selected="false" aria-controls="g-lop" type="button">🏫 Trên lớp</button>
+      <button class="tab" role="tab" id="tab-in" aria-selected="false" aria-controls="g-in" type="button">🖨 Đồ dùng in</button>
+      <button class="tab" role="tab" id="tab-zoom" aria-selected="false" aria-controls="g-zoom" type="button">🐉 Lớp Zoom</button>
+    </div>
+    <div class="gal" id="g-nha" role="tabpanel" aria-labelledby="tab-nha">
+      <article class="item" style="--c:var(--green)"><img src="img/s_bd2.webp" alt="Bản đồ học của web Seedling" loading="lazy"><div><h3>Bản đồ học</h3><p><b>Cách dùng</b>Mỗi ngày con mở một chặng. Học xong ngày này mới mở ngày sau.</p></div></article>
+      <article class="item" style="--c:var(--sky);--p:50% 35%"><img src="img/s_st0b.webp" alt="Thẻ từ mới 小朋友" loading="lazy"><div><h3>Thẻ từ mới</h3><p><b>Cách dùng</b>Chạm thẻ để nghe tiếng Anh, lật xem chữ Hán và pinyin.</p></div></article>
+      <article class="item" style="--c:var(--red);--p:50% 45%"><img src="img/s_st1b.webp" alt="Nghe truyện unit kể dần" loading="lazy"><div><h3>Nghe truyện</h3><p><b>Cách dùng</b>Truyện unit kể dần mỗi ngày một phần, nghe một lần tiếng Anh, một lần tiếng Trung.</p></div></article>
+      <article class="item" style="--c:#E07A1F;--p:50% 55%"><img src="img/s_ct_1.webp" alt="Bài Ai nói câu này" loading="lazy"><div><h3>Ai nói câu này?</h3><p><b>Cách dùng</b>Con nghe một câu rồi chạm vào bạn đã nói.</p></div></article>
+      <article class="item" style="--c:var(--teal);--p:50% 35%"><img src="img/s_pd_2.webp" alt="Phiên dịch nhí, cùng màu là cùng ý" loading="lazy"><div><h3>Phiên dịch nhí</h3><p><b>Cách dùng</b>Leo nói tiếng Anh, con nói lại bằng tiếng Trung cho Xiaomei. Cùng màu là cùng ý.</p></div></article>
+      <article class="item" style="--c:var(--green);--p:50% 60%"><img src="img/s_vd_2.webp" alt="Game vận động quay đầu chọn tranh" loading="lazy"><div><h3>Vận động</h3><p><b>Cách dùng</b>Con nghe từ rồi quay đầu về phía tranh đúng trước camera. Hình xử lý ngay trên máy, không ghi lại.</p></div></article>
+      <article class="item" style="--c:var(--sky);--p:40% 30%"><img src="img/s_hop2.webp" alt="Hộp ôn của con" loading="lazy"><div><h3>Hộp ôn</h3><p><b>Cách dùng</b>Từ đã học tự vào hộp. Đến hẹn, con ôn nhanh 8 câu, khoảng 3 phút.</p></div></article>
+      <article class="item" style="--c:var(--red)"><img src="img/s_sd_reader.webp" alt="Truyện tranh Reader song ngữ" loading="lazy"><div><h3>Reader</h3><p><b>Cách dùng</b>Truyện tranh của unit, chạm câu để nghe tiếng Anh hoặc tiếng Trung.</p></div></article>
+      <article class="item" style="--c:var(--plum)"><img src="img/s_sd_qua.webp" alt="Phòng đổi quà" loading="lazy"><div><h3>Sao & đổi quà</h3><p><b>Cách dùng</b>Sao kiếm được dùng để nuôi thú cưng, chọn trang phục, đổi quà ở lớp.</p></div></article>
+    </div>
+    <div class="gal" id="g-lop" role="tabpanel" aria-labelledby="tab-lop" hidden>
+      <article class="item" style="--c:var(--red);--p:30% 20%"><img src="img/s_d_giaoan.webp" alt="Giáo án 90 phút" loading="lazy"><div><h3>Giáo án 90 phút</h3><p><b>Cách dùng</b>Cô thấy từng khối, từng phút, và trang chiếu đi kèm.</p></div></article>
+      <article class="item" style="--c:#E07A1F;--p:60% 40%"><img src="img/s_d_chieu2.webp" alt="Trình chiếu có cột các bé" loading="lazy"><div><h3>Trình chiếu</h3><p><b>Cách dùng</b>Cô chiếu lên TV, bấm đáp án từng bé ở cột bên phải.</p></div></article>
+      <article class="item" style="--c:var(--sky)"><img src="img/s_d_chieu6.webp" alt="Trò chơi Greeting freeze" loading="lazy"><div><h3>Trò chơi flashcard</h3><p><b>Cách dùng</b>Nhạc dừng thì cô giơ thẻ, cả lớp nói thật nhanh.</p></div></article>
+      <article class="item" style="--c:var(--teal);--p:50% 60%"><img src="img/s_d_bigbook.webp" alt="Big Book" loading="lazy"><div><h3>Big Book</h3><p><b>Cách dùng</b>Truyện unit trang lớn. Chạm câu để nghe, đổi English / 中文.</p></div></article>
+      <article class="item" style="--c:var(--plum);--p:30% 45%"><img src="img/s_d_chant.webp" alt="Chant và nhảy" loading="lazy"><div><h3>Chant & nhảy</h3><p><b>Cách dùng</b>Chant Anh – Trung tự soạn theo giai điệu dân gian, mỗi câu một động tác.</p></div></article>
+      <article class="item" style="--c:var(--green);--p:30% 30%"><img src="img/s_d_thucong.webp" alt="Thủ công" loading="lazy"><div><h3>Thủ công</h3><p><b>Cách dùng</b>Mỗi unit một sản phẩm. Con làm, rồi thuyết trình bằng hai thứ tiếng.</p></div></article>
+      <article class="item" style="--c:var(--red);--p:30% 40%"><img src="img/s_d_baocao2.webp" alt="Lớp và báo cáo" loading="lazy"><div><h3>Lớp & báo cáo</h3><p><b>Cách dùng</b>Mỗi bé một dòng: giơ tay, nói EN, nói 中文, thái độ. Tải CSV, chép lời khen gửi Zalo.</p></div></article>
+    </div>
+    <div class="gal" id="g-in" role="tabpanel" aria-labelledby="tab-in" hidden>
+      <article class="item" style="--c:var(--sky)"><img src="img/s_i_flash.webp" alt="Flashcard lớn good morning 早上好" loading="lazy"><div><h3>Flashcard lớn</h3><p><b>Cách dùng</b>Gấp đôi: mặt tranh quay về các con, mặt chữ quay về cô.</p></div></article>
+      <article class="item" style="--c:#E07A1F;--p:50% 25%"><img src="img/s_i_bingo.webp" alt="Bingo 3 x 3" loading="lazy"><div><h3>Bingo 3 × 3</h3><p><b>Cách dùng</b>Cô đọc tiếng Anh, sau đó đọc tiếng Trung, con đặt hạt lên tranh.</p></div></article>
+      <article class="item" style="--c:var(--teal);--p:50% 25%"><img src="img/s_i_strips.webp" alt="Dải câu đôi bạn" loading="lazy"><div><h3>Dải câu đôi bạn</h3><p><b>Cách dùng</b>Một bạn nói tiếng Anh, bạn kia nói tiếng Trung.</p></div></article>
+      <article class="item" style="--c:var(--plum);--p:50% 20%"><img src="img/s_i_puppets.webp" alt="Rối que nhân vật" loading="lazy"><div><h3>Rối que</h3><p><b>Cách dùng</b>Cắt theo vòng tròn, dán lên que. Con đóng vai nhân vật trong truyện.</p></div></article>
+      <article class="item" style="--c:var(--red);--p:50% 35%"><img src="img/s_i_reader.webp" alt="Reader A5" loading="lazy"><div><h3>Reader A5</h3><p><b>Cách dùng</b>In A4 ngang, gấp đôi thành sách nhỏ con mang về nhà đọc.</p></div></article>
+    </div>
+    <div class="gal" id="g-zoom" role="tabpanel" aria-labelledby="tab-zoom" hidden>
+      <article class="item" style="--c:var(--red)"><img src="img/s_rq3.webp" alt="Trận Đấu Rồng Lửa đang diễn ra" loading="lazy"><div><h3>Đấu Rồng Lửa</h3><p><b>Cách dùng</b>Câu hỏi xen kẽ English và 中文. Mỗi câu đúng là một tia sức mạnh cho anh hùng Bông.</p></div></article>
+      <article class="item" style="--c:var(--green)"><img src="img/s_rend.webp" alt="Cả lớp thắng Rồng Lửa" loading="lazy"><div><h3>Cả lớp cùng thắng</h3><p><b>Cách dùng</b>Không có bảng xếp hạng. Cả lớp cùng kéo thanh năng lượng về phía anh hùng.</p></div></article>
+      <article class="item" style="--c:var(--teal)"><img src="img/s_ctm.webp" alt="Trang lộ trình 9 khóa cho ba mẹ" loading="lazy"><div><h3>Lộ trình 9 khóa</h3><p><b>Cách dùng</b>Ba mẹ xem nhiệm vụ hôm nay của con và lộ trình cả chương trình.</p></div></article>
+    </div>
+    <div class="try">
+      <a class="btn btn-ghost" href="https://anh-trung-kids-ces.github.io/hoc.mot.lan.duoc.hai.ngon.ngu/seedling/" target="_blank" rel="noopener">▶ Thử web học của con</a>
+      <a class="btn btn-ghost" href="https://anh-trung-kids-ces.github.io/hoc.mot.lan.duoc.hai.ngon.ngu/seedling/day/" target="_blank" rel="noopener">▶ Xem web giảng dạy của cô</a>
+    </div>
+  </div>
+</section>
+
+<section class="track partner band" id="doi-tac" style="--c:var(--red)">
+  <div class="wrap">
+    <div class="track-head">
+      <div class="head" style="margin:0">
+        <span class="pill">Dành cho trung tâm ngoại ngữ, trường mầm non và tiểu học</span>
+        <h2 style="color:var(--red)">Mở lớp Anh – Trung mà không phải tự xây chương trình</h2>
+        <p class="lead">Nhận trọn bộ: giáo trình, web học, học liệu lớp học và đào tạo giáo viên. Dùng thử trước, chỉ trả phí khi thấy lớp chạy được.</p>
+      </div>
+      <img src="img/zoom_bong_thang.webp" alt="" aria-hidden="true">
+    </div>
+    <div class="ocean">
+      <div class="ocean-head">
+        <p class="eyebrow" style="color:#CFE9FF">Cơ hội thị trường</p>
+        <h3 class="ocean-title">Tiếng Trung cho trẻ em: một đại dương xanh còn ít người khai phá</h3>
+        <p>Tiếng Anh trẻ em đã là "biển đỏ" với rất nhiều trung tâm cạnh tranh. Tiếng Trung cho trẻ em thì nhu cầu đang lên mà chưa có thương hiệu nào dẫn đầu. Đơn vị vào sớm sẽ định hình thị trường.</p>
+      </div>
+      <div class="ocean-grid">
+        <div class="oc"><b>146.000+</b><h4>Nhu cầu tiếng Trung đang lên</h4><p>Năm 2025, Việt Nam có hơn 146.000 lượt thi HSK, nhiều nhất thế giới (<a href="https://znews.vn/nguoi-tre-tphcm-miet-mai-cay-tieng-trung-sau-gio-lam-post1650178.html" target="_blank" rel="noopener">Znews</a>). Tiếng Trung đã có chương trình Ngoại ngữ 1 trong trường phổ thông (<a href="https://caselaw.vn/van-ban-phap-luat/361163-thong-tu-so-19-2021-tt-bgddt-ngay-01-07-2021-cua-bo-truong-bo-giao-duc-va-dao-tao-ve-chuong-trinh-giao-duc-pho-thong-mon-ngoai-ngu-1-tieng-nga-tieng-nhat-tieng-phap-tieng-trung-quoc" target="_blank" rel="noopener">Thông tư 19/2021/TT-BGDĐT</a>).</p></div>
+        <div class="oc"><b>#1</b><h4>Vị trí dẫn đầu còn trống</h4><p>Phụ huynh dễ kể tên vài thương hiệu tiếng Anh trẻ em, nhưng chưa có cái tên tiếng Trung trẻ em nào đủ mạnh. Vị trí số một vẫn còn trống.</p></div>
+        <div class="oc"><b>Ít</b><h4>Phương pháp và tài nguyên còn thiếu</h4><p>Giáo trình tiếng Trung cho học sinh khu vực còn thiếu về số lượng, thiếu tính thực tế và sự thú vị (<a href="https://jshou.edu.vn/houjs/article/download/116/116/503" target="_blank" rel="noopener">Tạp chí ĐH Mở Hà Nội</a>); nhiều bộ chỉ hợp người mới bắt đầu (<a href="https://vjol.info.vn/tnu/article/download/98656/83318/" target="_blank" rel="noopener">Tạp chí KH&amp;CN ĐH Thái Nguyên</a>). Anh – Trung – Kids có sẵn trọn bộ cho 9 khóa.</p></div>
+        <div class="oc"><b>2</b><h4>Phụ huynh muốn con làm chủ hai thứ tiếng</h4><p>Cộng đồng phụ huynh và người có ảnh hưởng trong giáo dục đã chia sẻ con họ nói được cả tiếng Anh lẫn tiếng Trung. Học song ngữ Anh – Trung đang sớm thành xu hướng.</p></div>
+      </div>
+    </div>
+
+    <div class="grid2" style="margin-top:20px">
+      <div class="box">
+        <h3>Tuyển sinh dễ hơn một lớp tiếng Anh thông thường</h3>
+        <ul>
+          <li><b>Khác biệt rõ ràng:</b> trung tâm có sản phẩm mà các trung tâm tiếng Anh gần đó chưa có, không phải cạnh tranh bằng giá.</li>
+          <li><b>Một lớp, hai nhu cầu:</b> phụ huynh không phải chọn giữa tiếng Anh và tiếng Trung, không phải trả hai học phí, đưa đón hai nơi.</li>
+          <li><b>Khách hàng sẵn có:</b> học sinh tiếng Anh hiện tại của trung tâm có thể học thêm tiếng Trung ngay trong lộ trình quen thuộc.</li>
+          <li><b>Giữ học sinh lâu:</b> 9 khóa nối tiếp cho trẻ từ 4 đến 10 tuổi, mỗi khóa có mốc chứng chỉ Cambridge YLE và YCT.</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Đơn vị nào cũng có thể mở được</h3>
+        <ul>
+          <li>Không cần tự xây chương trình hay thuê đội làm học liệu: giáo án, trình chiếu, đồ dùng in đã có cho từng buổi.</li>
+          <li>Giáo viên được đào tạo theo đúng bộ học liệu và dạy thử có phản hồi trước khi nhận lớp.</li>
+          <li>Web tự học có giọng đọc cho mọi câu, lo phần luyện tập ở nhà, kể cả khi ba mẹ không biết tiếng Trung.</li>
+          <li>Dùng thử trước với lớp đầu tiên, chỉ trả phí khi thấy lớp chạy được.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="why">
+      <h3 class="why-title">Vì sao tiếng Anh của con cũng tốt lên</h3>
+      <p class="why-lead">Giáo viên và phụ huynh CES thấy các con học Anh – Trung nói tiếng Anh tự nhiên hơn các bạn chỉ học lớp Việt – Anh hay Anh – Anh. Nghiên cứu về trẻ song ngữ, đa ngữ giải thích vì sao điều đó có thể xảy ra:</p>
+      <div class="why-grid">
+        <div class="wy"><span>1</span><h4>Hiểu tiếng Anh trực tiếp, không dịch qua tiếng Việt</h4><p>Trong bài Phiên dịch nhí, câu tiếng Anh là đầu vào để con nói tiếng Trung. Con phải nắm nghĩa cả câu tiếng Anh, nên dần bỏ thói quen dịch từng chữ sang tiếng Việt. Đây cũng là điều phụ huynh bé Mì kể lại.</p></div>
+        <div class="wy"><span>2</span><h4>Một ý, hai lần xử lý</h4><p>Cùng một tình huống được nghe, nói ở hai thứ tiếng, nên con gặp lại nghĩa nhiều lần hơn mà không phải nhớ thêm ý mới. Theo giả thuyết phụ thuộc lẫn nhau của Cummins, hai ngôn ngữ dùng chung một nền hiểu biết, nên kỹ năng học được ở tiếng này chuyển được sang tiếng kia (<a href="https://gallaudet.edu/wp-content/uploads/gcloud/gal-media/Documents/cummins_asl-eng.pdf" target="_blank" rel="noopener">Cummins</a>).</p></div>
+        <div class="wy"><span>3</span><h4>Nhận ra cấu trúc của ngôn ngữ</h4><p>Đặt "Hello, kids!" cạnh "小朋友们，你们好！", con tự so sánh cách hai thứ tiếng sắp xếp ý. Trẻ học bằng hai ngôn ngữ phát triển dần nhận thức về ngôn ngữ tốt hơn, mà vẫn giữ được tiếng mẹ đẻ (<a href="https://www.cambridge.org/core/journals/applied-psycholinguistics/article/producing-bilinguals-through-immersion-education-development-of-metalinguistic-awareness/AC592C3EE5B7A145BB48FFD56A127E61" target="_blank" rel="noopener">Bialystok và cộng sự, 2014</a>).</p></div>
+        <div class="wy"><span>4</span><h4>Biết nhiều thứ tiếng giúp học thêm thứ tiếng mới</h4><p>Tổng quan nghiên cứu cho thấy người đa ngữ có lợi thế khi học ngôn ngữ mới, nhờ chuyển kiến thức trực tiếp và nhờ thay đổi chung trong cách xử lý ngôn ngữ (<a href="https://cris.haifa.ac.il/en/publications/direct-and-indirect-effects-of-multilingualism-on-novel-language-/" target="_blank" rel="noopener">Hirosh &amp; Degani, 2018</a>). Ở xứ Basque, song ngữ là một yếu tố dự báo thành tích tiếng Anh (<a href="https://core-cms.cambridgecore.org/core/journals/applied-psycholinguistics/article/additive-trilingualism-evidence-from-the-basque-country/E85F179C11E8BDCA4A4E84FA9B8DDA83" target="_blank" rel="noopener">Cenoz &amp; Valencia, 1994</a>).</p></div>
+      </div>
+      <p class="why-note">Mức tiến bộ khác nhau theo từng bé và thời gian học. Lợi thế của trẻ đa ngữ thường hình thành dần qua nhiều năm, không đến ngay sau vài buổi.</p>
+    </div>
+
+    <div class="grid2" style="margin-top:20px">
+      <div class="box" style="grid-column:1/-1">
+        <h3>Đối tác nhận được</h3>
+        <div class="tbl"><table>
+          <thead><tr><th>Hạng mục</th><th>Gồm</th></tr></thead>
+          <tbody>
+            <tr><td>Khung chương trình</td><td>9 khóa, từ vựng phân bổ xoắn ốc qua bài, unit, khóa</td></tr>
+            <tr><td>Web học cho trẻ</td><td>Ngày học ngắn, Hộp ôn, theo dõi tiến độ từng bé</td></tr>
+            <tr><td>Web giảng dạy</td><td>Giáo án, trình chiếu tương tác, Big Book, chant</td></tr>
+            <tr><td>Đồ dùng in</td><td>Flashcard, thẻ mini, bingo, rối que, Reader A5, workbook</td></tr>
+            <tr><td>Báo cáo phụ huynh</td><td>Ghi nhận từng bé mỗi buổi, lời khen gửi Zalo</td></tr>
+            <tr><td>Đào tạo giáo viên</td><td>Khóa phương pháp, dạy thử có phản hồi</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+    </div>
+    <h3 style="margin:34px 0 14px;font-size:28px">5 bước hợp tác</h3>
+    <ol class="flow">
+      <li>Gặp gỡ, xem một buổi học mẫu.</li>
+      <li>Dùng thử miễn phí với lớp đầu tiên.</li>
+      <li>Giáo viên của trung tâm học khóa đào tạo của CES.</li>
+      <li>Mở lớp chính thức, bắt đầu trả phí.</li>
+      <li>CES đồng hành: dự giờ, cập nhật học liệu, hỗ trợ báo cáo.</li>
+    </ol>
+    <div class="grid2" style="margin-top:20px">
+      <div class="box">
+        <h3>Phí tính theo những gì bạn dùng</h3>
+        <ul>
+          <li>Đào tạo giáo viên: theo số giáo viên.</li>
+          <li>Tài khoản web học: theo số bé mỗi khóa.</li>
+          <li>Bộ học liệu lớp học: theo số bé mỗi khóa.</li>
+        </ul>
+        <p class="note">Mức phí cụ thể có trong bản giới thiệu nhượng quyền và hợp đồng mẫu, gửi đối tác trước khi ký.</p>
+      </div>
+      <div class="box">
+        <h3>Cam kết với đối tác</h3>
+        <ul>
+          <li>Học sinh và phụ huynh của bạn không nhận quảng cáo hay lời mời nào từ CES.</li>
+          <li>Dữ liệu học sinh của lớp đối tác thuộc về đối tác.</li>
+          <li>9 khóa nối tiếp cho trẻ từ 4 đến 10 tuổi: một học sinh có lộ trình nhiều năm tại trung tâm của bạn.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="callout">
+      <p>Xem tận mắt một buổi học: lớp mẫu, thử web học như một học sinh, và một báo cáo phụ huynh mẫu.</p>
+      <a class="btn btn-red" href="#dang-ky" data-who="doi-tac">Đặt lịch xem lớp mẫu</a>
+    </div>
+  </div>
+</section>
+
+<section class="track teacher band" id="giao-vien" style="--c:var(--teal)">
+  <div class="wrap">
+    <div class="track-head">
+      <div class="head" style="margin:0">
+        <span class="pill">Dành cho giáo viên tiếng Anh, tiếng Trung dạy trẻ 4–10 tuổi</span>
+        <h2 style="color:var(--teal)">Trở thành giáo viên song ngữ Anh – Trung</h2>
+        <p class="lead">Khóa đào tạo của CES trao cho bạn phương pháp, học liệu soạn sẵn và một lộ trình nghề rõ ràng. Bạn dành thời gian cho trẻ, không phải cho việc soạn slide.</p>
+      </div>
+      <img src="img/nv_lan_a.webp" alt="" aria-hidden="true">
+    </div>
+    <div class="grid2">
+      <div class="box">
+        <h3>Vì sao nên chọn hướng này</h3>
+        <ul>
+          <li>Nhu cầu học tiếng Trung tăng nhanh: năm 2025 Việt Nam có hơn 146.000 lượt thi HSK.</li>
+          <li>Phần lớn giáo viên chỉ dạy một ngoại ngữ. Giáo viên biết nối tiếng Anh với tiếng Trung trong cùng một bài là người nhiều trung tâm đang tìm.</li>
+          <li>Học liệu, web giảng dạy, flashcard có sẵn cho từng buổi.</li>
+          <li>Lớp nhỏ, web lo phần luyện tập ở nhà. Trên lớp, bạn làm điều máy không làm tốt bằng người: lắng nghe, phản hồi, sửa lỗi, khích lệ.</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Lộ trình nghề</h3>
+        <div class="tbl"><table>
+          <thead><tr><th>Bậc</th><th>Điều kiện</th></tr></thead>
+          <tbody>
+            <tr><td>Giáo viên tập sự</td><td>Hoàn thành khóa đào tạo</td></tr>
+            <tr><td>Giáo viên chính thức</td><td>Các buổi dạy đạt chuẩn dự giờ</td></tr>
+            <tr><td>Giáo viên chính</td><td>Hướng dẫn đồng nghiệp</td></tr>
+            <tr><td>Giảng viên đào tạo</td><td>Đào tạo giáo viên mới</td></tr>
+          </tbody>
+        </table></div>
+        <p class="note">Thu nhập từng bậc trao đổi trực tiếp khi phỏng vấn.</p>
+      </div>
+    </div>
+    <h3 style="margin:34px 0 14px;font-size:28px">Khóa đào tạo học gì</h3>
+    <div class="box tbl" style="padding:10px 18px">
+      <table class="wide">
+        <thead><tr><th>Module</th><th>Học gì</th><th>Sau module, bạn làm được</th></tr></thead>
+        <tbody>
+          <tr><td>1. Một ngữ cảnh – hai ngôn ngữ</td><td>4 nguyên tắc cốt lõi, tiếng Việt làm điểm tựa, chuyển ngữ</td><td>Giải thích chương trình cho phụ huynh trong 2 phút</td></tr>
+          <tr><td>2. Vòng dạy một unit</td><td>Giới thiệu → Lặp lại → Luyện tập → Sản phẩm qua nhiều buổi</td><td>Lên kế hoạch cho một unit 4 buổi</td></tr>
+          <tr><td>3. Dạy từ qua câu chuyện</td><td>Truyện unit kể dần, 6 nấc gặp lại một từ</td><td>Dạy một đoạn truyện bằng cả hai ngôn ngữ</td></tr>
+          <tr><td>4. Âm và chữ</td><td>Phonics tiếng Anh; pinyin, thanh điệu, chữ Hán, mỗi lần một ít</td><td>Dạy một quy tắc âm trong 5 phút có hình minh họa</td></tr>
+          <tr><td>5. Điều hành lớp nhỏ</td><td>Hoạt động dưới 30 phút, trò chơi vận động, sửa lỗi nhẹ nhàng</td><td>Điều hành một buổi 90 phút không cần trợ giảng</td></tr>
+          <tr><td>6. Công cụ lớp học</td><td>Web giảng dạy, flashcard, Big Book, thủ công, chant</td><td>Dạy một buổi trọn vẹn bằng bộ học liệu CES</td></tr>
+          <tr><td>7. Theo dõi và báo cáo</td><td>Ghi nhận từng bé, bài kiểm tra sau mỗi 2–3 unit</td><td>Viết nhận xét gửi phụ huynh sau buổi học</td></tr>
+          <tr><td>8. Dạy thử</td><td>Dạy một buổi có người dự giờ, nhận phản hồi</td><td>Nhận chứng nhận giáo viên Anh – Trung – Kids</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 style="margin:34px 0 14px;font-size:28px">4 bước bắt đầu</h3>
+    <ol class="flow four">
+      <li>Đăng ký trên trang này.</li>
+      <li>Dự một buổi đào tạo thử miễn phí.</li>
+      <li>Học khóa đào tạo và dạy thử có phản hồi.</li>
+      <li>Nhận chứng nhận và nhận lớp.</li>
+    </ol>
+    <div class="callout" style="background:#13625f">
+      <p>Bạn phù hợp nếu bạn dạy tiếng Anh hoặc tiếng Trung, thích làm việc với trẻ 4–10 tuổi và sẵn sàng học một phương pháp mới.</p>
+      <a class="btn btn-teal" href="#dang-ky" data-who="giao-vien" style="background:var(--yellow);color:var(--ink);box-shadow:0 5px 0 #c99a10">Đăng ký buổi đào tạo thử</a>
+    </div>
+  </div>
+</section>
+
+<section class="reg band" id="dang-ky">
+  <div class="wrap">
+    <div class="stack">
+      <p class="eyebrow" style="color:#FFE3E3">Đăng ký</p>
+      <h2>Để lại thông tin, CES liên hệ lại với bạn</h2>
+      <p class="lead">Điền form và bấm "Gửi đăng ký". CES sẽ gọi lại cho bạn. Hoặc gọi trực tiếp:</p>
+      <div class="contactline"><span class="phone" id="hotline">0974.840.845</span><button class="copy" type="button" data-copy="0974840845">Sao chép số</button></div>
+      <p style="font-size:15px;opacity:.9">1/51/2 Quang Tiến, Tây Mỗ, Nam Từ Liêm, Hà Nội</p>
+    </div>
+    <form id="regForm" novalidate>
+      <div class="who" role="radiogroup" aria-label="Bạn đăng ký với tư cách">
+        <label><input type="radio" name="who" id="who-dt" value="doi-tac" checked> 🏫 Đối tác mở lớp</label>
+        <label><input type="radio" name="who" id="who-gv" value="giao-vien"> 👩‍🏫 Giáo viên</label>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="f-name">Họ và tên</label><input id="f-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="f-phone">Số điện thoại / Zalo</label><input id="f-phone" name="phone" inputmode="tel" autocomplete="tel" required></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="f-city">Tỉnh / thành phố</label><input id="f-city" name="city" autocomplete="address-level1"></div>
+        <div class="field" id="fld-org"><label for="f-org">Tên trung tâm / trường</label><input id="f-org" name="org" autocomplete="organization"></div>
+        <div class="field" id="fld-lang" hidden><label for="f-lang">Bạn dạy</label><select id="f-lang" name="lang"><option>Tiếng Anh</option><option>Tiếng Trung</option><option>Cả hai</option></select></div>
+      </div>
+      <div class="field" id="fld-size"><label for="f-size">Số học sinh 4–10 tuổi hiện có (ước tính)</label><select id="f-size" name="size"><option>Dưới 50</option><option>50–150</option><option>150–300</option><option>Trên 300</option></select></div>
+      <div class="field" id="fld-exp" hidden><label for="f-exp">Kinh nghiệm dạy trẻ</label><select id="f-exp" name="exp"><option>Chưa có</option><option>Dưới 1 năm</option><option>1–3 năm</option><option>Trên 3 năm</option></select></div>
+      <div class="field"><label for="f-note">Bạn muốn hỏi thêm gì?</label><textarea id="f-note" name="note" rows="3"></textarea></div>
+      <p class="err" id="formErr" hidden>Bạn điền họ tên và số điện thoại giúp CES nhé.</p>
+      <input type="text" name="website" id="f-web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
+      <button class="btn btn-red" type="submit" id="makeMsg">Gửi đăng ký</button>
+      <div class="out" id="sent" hidden style="background:#E5F4E4;border-color:#3BB273"><strong id="sentTitle">CES đã nhận đăng ký của bạn. Cảm ơn bạn!</strong><p id="sentText" style="font-size:15px">Chúng tôi sẽ gọi lại theo số bạn để lại.</p></div>
+      <div class="out" id="out" hidden>
+        <strong id="outTitle">Tin đăng ký của bạn đã sẵn sàng</strong>
+        <pre id="msg"></pre>
+        <div class="contactline" style="color:var(--ink)"><button class="copy" type="button" id="copyMsg">Sao chép tin</button><span>rồi gửi Zalo tới <b>0974.840.845</b></span></div>
+        <p class="note" style="margin:0">Tin chưa được gửi đi cho tới khi bạn dán vào Zalo và bấm gửi.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="band" id="hoi-dap">
+  <div class="wrap" style="max-width:860px">
+    <div class="head"><p class="eyebrow">Câu hỏi thường gặp</p><h2>Hỏi đáp</h2></div>
+    <details><summary>Học hai thứ tiếng cùng lúc, con có bị lẫn không?</summary><p>Mỗi ngày, phần tiếng Trung khớp đúng phần tiếng Anh cùng ngày, trên cùng một tình huống. Con học một ý bằng hai cách nói, nên ít bị rối hơn học hai chương trình riêng. Phụ huynh bé Mì kể con đã bỏ được thói quen dịch từng chữ.</p></details>
+    <details><summary>Ba mẹ không biết tiếng Trung thì kèm con thế nào?</summary><p>Web tự học có giọng đọc cho mọi câu và lời hướng dẫn tiếng Việt. Con tự học, ba mẹ chỉ cần nhắc con mở bài mỗi ngày.</p></details>
+    <details><summary>Đối tác có phải trả phí ngay không?</summary><p>Không. Đối tác dùng thử với lớp đầu tiên, giáo viên học khóa đào tạo, rồi mới mở lớp chính thức và bắt đầu trả phí.</p></details>
+    <details><summary>Lớp học có phụ thuộc màn hình không?</summary><p>Không. Web giảng dạy thay cho slide, còn phần lớn hoạt động trên lớp làm bằng tay: flashcard, bingo, rối que, thủ công, chant và nhảy.</p></details>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b>CES Việt Nam · Anh – Trung – Kids</b><p>Học một lần, được hai ngôn ngữ.</p></div>
+    <div><p>Hotline 0974.840.845</p><p>1/51/2 Quang Tiến, Tây Mỗ, Nam Từ Liêm, Hà Nội</p></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+  // tiếng video đầu trang
+  const hv=$('#heroVid'), sb=$('#soundBtn');
+  sb.addEventListener('click',()=>{ if(hv.muted){hv.muted=false;hv.currentTime=0;hv.play().catch(()=>{});sb.textContent='🔇 Tắt tiếng';} else {hv.muted=true;sb.textContent='🔊 Bật tiếng';} });
+  // chỉ một video phát cùng lúc
+  $$('video').forEach(v=>v.addEventListener('play',()=>{ $$('video').forEach(o=>{ if(o!==v && !o.paused && !(o===hv && o.muted)) o.pause(); }); if(v!==hv && !hv.muted){hv.muted=true;sb.textContent='🔊 Bật tiếng';} }));
+  // đoạn video demo
+  const dv=$('#demoVid');
+  $$('.chapters button').forEach(b=>b.addEventListener('click',()=>{ dv.currentTime=+b.dataset.t; dv.play().catch(()=>{}); }));
+  // tab học liệu
+  const tabs=$$('.tab');
+  tabs.forEach(t=>t.addEventListener('click',()=>{ tabs.forEach(x=>{x.setAttribute('aria-selected',x===t);document.getElementById(x.getAttribute('aria-controls')).hidden=(x!==t);}); }));
+  // form
+  // Dán link Web App của Apps Script vào đây (kết thúc bằng /exec). Để trống thì form chỉ tạo tin để gửi Zalo.
+  const FORM_API = 'https://script.google.com/macros/s/AKfycbwv8J89SBLrwTfaMzRcWMqXZV4MVbFbe6KwFf7BYfR-rKqdaTfhxAiKX6Nx0D-1Uyg/exec';
+  const T0 = Date.now();
+  const form=$('#regForm');
+  function mode(){ const gv=$('#who-gv').checked; $('#fld-org').hidden=gv; $('#fld-size').hidden=gv; $('#fld-lang').hidden=!gv; $('#fld-exp').hidden=!gv; }
+  $$('input[name=who]').forEach(r=>r.addEventListener('change',mode));
+  $$('[data-who]').forEach(a=>a.addEventListener('click',()=>{ document.getElementById(a.dataset.who==='giao-vien'?'who-gv':'who-dt').checked=true; mode(); }));
+  form.addEventListener('submit',e=>{
+    e.preventDefault();
+    const v=id=>($('#'+id).value||'').trim();
+    if(!v('f-name')||!v('f-phone')){ $('#formErr').hidden=false; return; }
+    $('#formErr').hidden=true;
+    const gv=$('#who-gv').checked;
+    const lines=[ gv?'ĐĂNG KÝ ĐÀO TẠO GIÁO VIÊN – Anh – Trung – Kids':'ĐĂNG KÝ ĐỐI TÁC – Anh – Trung – Kids',
+      'Họ tên: '+v('f-name'), 'SĐT/Zalo: '+v('f-phone') ];
+    if(v('f-city')) lines.push('Tỉnh/thành: '+v('f-city'));
+    if(gv){ lines.push('Dạy: '+v('f-lang'),'Kinh nghiệm dạy trẻ: '+v('f-exp')); }
+    else { if(v('f-org')) lines.push('Trung tâm/trường: '+v('f-org')); lines.push('Số học sinh 4–10 tuổi: '+v('f-size')); }
+    if(v('f-note')) lines.push('Hỏi thêm: '+v('f-note'));
+    $('#msg').textContent=lines.join('\n'); $('#copyMsg').textContent='Sao chép tin';
+    const showCopy=(title)=>{ $('#outTitle').textContent=title; $('#out').hidden=false; $('#out').scrollIntoView({block:'nearest',behavior:'smooth'}); };
+    if(!FORM_API){ showCopy('Tin đăng ký của bạn đã sẵn sàng'); return; }
+    const data={ who: gv?'giao-vien':'doi-tac', name:v('f-name'), phone:v('f-phone'), city:v('f-city'), org:gv?'':v('f-org'), size:gv?'':v('f-size'), lang:gv?v('f-lang'):'', exp:gv?v('f-exp'):'', note:v('f-note'), website:v('f-web'), page:location.href, secs:Math.round((Date.now()-T0)/1000) };
+    const btn=$('#makeMsg'); btn.disabled=true; btn.textContent='Đang gửi…';
+    fetch(FORM_API,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(data)})
+      .then(()=>{ $('#sent').hidden=false; $('#out').hidden=true; form.querySelectorAll('input:not([type=radio]),textarea').forEach(i=>i.value=''); btn.textContent='Đã gửi'; $('#sent').scrollIntoView({block:'nearest',behavior:'smooth'}); })
+      .catch(()=>{ btn.disabled=false; btn.textContent='Gửi đăng ký'; showCopy('Chưa gửi được. Bạn sao chép tin này và gửi Zalo giúp CES nhé'); });
+  });
+  function copyText(text,btn,el){
+    const ok=()=>{btn.textContent='Đã sao chép';};
+    const fail=()=>{ if(el){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);} btn.textContent='Đã chọn sẵn, bạn bấm sao chép'; };
+    try{ navigator.clipboard.writeText(text).then(ok,fail); }catch(_){ fail(); }
+  }
+  $('#copyMsg').addEventListener('click',e=>copyText($('#msg').textContent,e.currentTarget,$('#msg')));
+  $$('[data-copy]').forEach(b=>b.addEventListener('click',()=>copyText(b.dataset.copy,b,$('#hotline'))));
+  mode();
+})();
+</script>
+
+</body>
+</html>
