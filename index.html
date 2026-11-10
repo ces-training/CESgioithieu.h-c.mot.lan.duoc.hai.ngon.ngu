@@ -247,6 +247,46 @@ details+details{margin-top:10px}
 summary{font-weight:700;cursor:pointer;font-size:17px}
 details p{margin-top:10px;font-size:16px}
 
+/* năng lực chuyển ngữ */
+.med{background:linear-gradient(165deg,#3B2470,#6A45B8 60%,#8A5CD6);color:#fff;position:relative;overflow:hidden}
+.med .eyebrow{color:#E4D6FF}
+.med h2{color:#fff}
+.med h2 span{color:var(--yellow)}
+.med .lead{color:#fff}
+.med a{color:#FFE48A}
+.med-top{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center;margin-bottom:30px}
+.med-top .head{margin:0}
+.med-demo{background:var(--card);color:var(--ink);border-radius:26px;padding:22px;box-shadow:0 8px 0 rgba(0,0,0,.18);display:grid;gap:10px;min-width:0}
+.med-who{display:block;font:700 12px/1 var(--f-body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.med-bub{border-radius:18px;padding:12px 16px;font-weight:700;font-size:18px;line-height:1.35}
+.med-bub.en{background:#E6F2FD;color:#1D5F99}
+.med-bub.zh{background:#FFECEC;color:var(--red-dark);font-family:var(--f-zh)}
+.med-bub.zh small{display:block;font:500 14px/1.4 var(--f-body);color:var(--muted);margin-top:2px}
+.med-arrow{display:flex;align-items:center;gap:10px;font:700 14.5px/1.35 var(--f-body);color:var(--plum)}
+.med-arrow b{flex:none;display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--yellow);color:var(--ink);font:800 18px/1 var(--f-display)}
+.med-demo .note{margin:4px 0 0}
+.med-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.mc{background:rgba(255,255,255,.1);border:2px solid rgba(255,255,255,.22);border-radius:20px;padding:18px;min-width:0;display:flex;flex-direction:column;gap:8px}
+.mc i{font-style:normal;font-size:30px;line-height:1}
+.mc h4{font:700 18px/1.3 var(--f-body);margin:0}
+.mc p{font-size:14.5px;line-height:1.55}
+.mc .src{font-size:13px;opacity:.85;margin-top:auto}
+.med-path{margin-top:22px;background:var(--card);color:var(--ink);border-radius:26px;padding:26px;box-shadow:0 8px 0 rgba(0,0,0,.18)}
+.med-path h3{color:var(--plum);margin-bottom:6px}
+.med-path>p{color:var(--muted);font-size:15.5px;margin-bottom:16px}
+.med-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.med-steps li{background:var(--yellow-soft);border-radius:18px;padding:18px;border-top:8px solid var(--c);min-width:0}
+.med-steps b{display:block;font:800 19px/1.2 var(--f-display);color:var(--c)}
+.med-steps small{display:block;font:700 13px/1.3 var(--f-body);color:var(--muted);margin:4px 0 8px}
+.med-steps p{font-size:15px;line-height:1.5}
+.med-only{margin-top:18px;display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;background:var(--ink);color:#fff;border-radius:18px;padding:16px 20px}
+.med-only b{font:800 30px/1 var(--f-display);color:var(--yellow)}
+.med-only p{font-size:15.5px;line-height:1.5}
+.med .why-note{color:#E4D6FF}
+@media (max-width:960px){.med-grid{grid-template-columns:1fr 1fr}.med-top{grid-template-columns:1fr}}
+@media (max-width:760px){.med-steps{grid-template-columns:1fr}.med-path{padding:20px}}
+@media (max-width:520px){.med-grid{grid-template-columns:1fr}.med-only{grid-template-columns:1fr}}
+
 footer{background:var(--ink);color:#F6EBD8}
 footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;padding-block:36px}
 footer b{font-family:var(--f-display);font-size:22px;display:block;color:#fff}
@@ -259,6 +299,7 @@ footer p{font-size:15px}
     <nav aria-label="Mục chính">
       <a href="#ket-qua">Kết quả</a>
       <a href="#hoc-lieu">Học liệu</a>
+      <a href="#chuyen-ngu">Chuyển ngữ</a>
       <a href="#doi-tac">Đối tác</a>
       <a href="#giao-vien">Giáo viên</a>
       <a class="hot" href="#dang-ky">Đăng ký</a>
@@ -440,6 +481,43 @@ footer p{font-size:15px}
       <a class="btn btn-ghost" href="https://anh-trung-kids-ces.github.io/hoc.mot.lan.duoc.hai.ngon.ngu/seedling/" target="_blank" rel="noopener">▶ Thử web học của con</a>
       <a class="btn btn-ghost" href="https://anh-trung-kids-ces.github.io/hoc.mot.lan.duoc.hai.ngon.ngu/seedling/day/" target="_blank" rel="noopener">▶ Xem web giảng dạy của cô</a>
     </div>
+  </div>
+</section>
+
+<section class="med band" id="chuyen-ngu">
+  <div class="wrap">
+    <div class="med-top">
+      <div class="head">
+        <p class="eyebrow">Năng lực riêng của trẻ học Anh – Trung</p>
+        <h2>Năng lực chuyển ngữ: <span>nghe một thứ tiếng, nói lại ý bằng thứ tiếng kia</span></h2>
+        <p class="lead">Khung tham chiếu châu Âu CEFR (bản 2020) gọi đây là <b>mediation</b>, kỹ năng làm cầu nối để người khác hiểu nhau. Lớp chỉ học tiếng Anh hay chỉ học tiếng Trung không có thứ tiếng thứ hai để chuyển sang, nên không luyện được kỹ năng này. Ở Anh – Trung – Kids, chuyển ngữ là một trong 4 nguyên tắc bắt buộc của mọi unit, suốt 9 khóa.</p>
+      </div>
+      <div class="med-demo" aria-label="Ví dụ một lượt Phiên dịch nhí">
+        <div><span class="med-who">Leo nói</span><div class="med-bub en">I'm hungry. Can I have an apple, please?</div></div>
+        <div class="med-arrow"><b>⇄</b>Con không dịch từng chữ. Con nắm ý rồi nói lại cho Xiaomei hiểu.</div>
+        <div><span class="med-who">Con nói với Xiaomei</span><div class="med-bub zh">Leo 饿了，他想吃一个苹果。<small>Leo è le, tā xiǎng chī yí ge píngguǒ.</small></div></div>
+        <p class="note">Câu tiếng Trung đổi ngôi, đổi cách nói, chỉ giữ đúng ý. Đó là chuyển ngữ, khác với dịch sát.</p>
+      </div>
+    </div>
+
+    <div class="med-grid">
+      <div class="mc"><i>🧠</i><h4>Hiểu ngôn ngữ sâu hơn</h4><p>Nghiên cứu trên học sinh song ngữ lớp 4–5 cho thấy trẻ tự dịch được rất tốt, và khả năng dịch đi cùng nhận thức về ngôn ngữ: biết câu được ghép thế nào, biết đâu là ý, đâu là chữ.</p><p class="src"><a href="https://web.stanford.edu/~hakuta/Publications/(1991)%20-%20TRANSLATION%20SKILL%20AND%20METALINGUISTIC%20AWARENESS%20IN%20B.pdf" target="_blank" rel="noopener">Malakoff &amp; Hakuta, 1991</a></p></div>
+      <div class="mc"><i>👂</i><h4>Biết đặt mình vào chỗ người nghe</h4><p>Trẻ 4–6 tuổi thường xuyên tiếp xúc với nhiều thứ tiếng hiểu đúng ý người nói khoảng 76% số lần, so với khoảng 50% ở trẻ chỉ nghe một thứ tiếng. Mỗi lượt chuyển ngữ, con phải nghĩ: bạn mình cần nghe gì để hiểu?</p><p class="src"><a href="https://news.uchicago.edu/article/2015/05/11/children-exposed-multiple-languages-may-be-better-natural-communicators" target="_blank" rel="noopener">Fan và cộng sự, 2015</a></p></div>
+      <div class="mc"><i>📖</i><h4>Đọc hiểu tốt hơn</h4><p>Ở Mỹ, học sinh tiểu học thường xuyên phiên dịch cho gia đình đạt điểm đọc trong bài kiểm tra chuẩn hóa cao hơn các bạn ít làm việc này. Chuyển ý giữa hai thứ tiếng là một cách luyện hiểu văn bản rất sâu.</p><p class="src"><a href="https://doi.org/10.1086/512740" target="_blank" rel="noopener">Dorner, Orellana &amp; Li-Grining, 2007</a></p></div>
+      <div class="mc"><i>🌏</i><h4>Kỹ năng của công dân toàn cầu</h4><p>CEFR 2020 đưa chuyển ngữ thành một nhóm kỹ năng ngang hàng với nghe, nói, đọc, viết: truyền đạt lại thông tin, giải thích cho người khác, giúp hai bên hiểu nhau. Đây là việc người đa ngữ làm hằng ngày trong học tập và công việc.</p><p class="src"><a href="https://www.ecml.at/ECML-Programme/Programme2020-2023/CEFRCompanionVolumeimplementationtoolbox/Mediation" target="_blank" rel="noopener">Council of Europe, 2020</a></p></div>
+    </div>
+
+    <div class="med-path">
+      <h3>Chuyển ngữ lớn dần qua 9 khóa</h3>
+      <p>Mỗi unit đều có bài chuyển ngữ trên web và trên lớp. Độ khó tăng theo tuổi, từ một câu lên một đoạn truyện.</p>
+      <ol class="med-steps">
+        <li style="--c:var(--green)"><b>Chạm và nói một câu</b><small>PreB · Little Seed · Seedling · 4–6 tuổi</small><p>Nghe một câu ở tiếng này, chạm tranh cùng ý ở tiếng kia. Làm "phiên dịch nhí": Leo nói tiếng Anh, con nói lại bằng tiếng Trung cho Xiaomei.</p></li>
+        <li style="--c:var(--sky)"><b>Chuyển một đoạn hội thoại</b><small>Canopy · Larva · Larva Plus · 6–8 tuổi</small><p>Chuyển lời của nhân vật trong truyện unit, kể lại một cảnh truyện bằng thứ tiếng kia, đóng vai người phiên dịch giữa hai bạn.</p></li>
+        <li style="--c:var(--plum)"><b>Tóm ý, kể lại, giải thích</b><small>Pupa · Cocoon · Butterfly · 8–10 tuổi</small><p>Nghe hoặc đọc cả đoạn ở tiếng này, tóm ý chính, kể lại hoặc viết lại ở tiếng kia, giải thích cho người chưa biết thứ tiếng đó.</p></li>
+      </ol>
+      <div class="med-only"><b>1 + 1 &gt; 2</b><p>Con học tiếng Anh ở một nơi, tiếng Trung ở nơi khác thì có hai thứ tiếng. Con học hai thứ tiếng trong cùng một câu chuyện, cùng một ngày thì có thêm năng lực thứ ba: chuyển ý qua lại giữa hai thứ tiếng.</p></div>
+    </div>
+    <p class="why-note">Các nghiên cứu trên khảo sát trẻ song ngữ và trẻ phiên dịch cho gia đình, không đánh giá riêng chương trình Anh – Trung – Kids. Lợi ích hình thành dần qua thời gian học dài, khác nhau theo từng bé.</p>
   </div>
 </section>
 
